@@ -1,0 +1,8 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+    <file alias="online">imgs/flag_green.gif</file>
+    <file alias="offline">imgs/flag_red.gif</file>
+    <file alias="unknown">imgs/flag_white.gif</file>
+ </qresource>
+ </RCC>
+ 

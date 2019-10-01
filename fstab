@@ -1,0 +1,13 @@
+# /etc/fstab: static file system information.
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+proc            /proc           proc    defaults        0       0
+/dev/hda1       /               ext3    errors=remount-ro 0       1
+/dev/hda9       /home           ext3    defaults        0       2
+/dev/hda8       /tmp            ext3    defaults        0       2
+/dev/hda5       /usr            ext3    defaults        0       2
+/dev/hda6       /var            ext3    defaults        0       2
+/dev/hda7       none            swap    sw              0       0
+/dev/hdc        /media/cdrom0   udf,iso9660 user,noauto     0       0
+/dev/fd0        /media/floppy0  auto    rw,user,noauto  0       0
+#//169.254.1.1/share    /usr/vega/share cifs    password=zenitel,username=zenitel       0       0
